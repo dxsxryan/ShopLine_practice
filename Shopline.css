@@ -21,7 +21,7 @@ h2{
     text-decoration: none;
     color: black;
     margin: 30px 20px 0 20px;
-    transition: all 2s;
+    transition: 2s;
     font-size: 12px;
 }
 .login a:hover{
@@ -43,11 +43,27 @@ nav a{
     margin: auto;
     text-decoration: none;
     color: black;
-    transition: all 0 ease 4s;
+    transition: 4s;
 }
 nav a:hover{
     border-bottom: 2px solid blue;
 }
+nav .free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color:#0061ff ;
+    transition: 0.5s;
+}
+nav .free:hover{
+    background-color:#052855 ;
+}
+
 .intro{
     display: flex;
     align-items: center;
@@ -80,6 +96,10 @@ nav a:hover{
     background-color: #0061ff;
     color: white;
     border-radius: 8px;
+    transition: 0.5s;
+}
+.intro a:hover{
+    background-color:#052855 ;
 }
 .intro .card{
     font-size: 12px;
@@ -162,4 +182,144 @@ li::marker{
 .context a::after{
     content: "\2192";
     padding-left: 5px;
+}      
+.bg4{
+    background-color:#f7f8f9 ;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.benefit{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.suport{
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    margin: auto;
+    justify-content: center;
+}
+.benefit img{
+    width: 100%;
+}
+.benefit h2{
+    font-size: 20px;
+    padding: 10px;
+}
+.benefit p{
+    line-height: 1.5;
+}
+.brand{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.recommended p{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    margin: auto;
+}
+.sign1{
+    padding-top: 20px;
+}
+.sign2{
+    padding-top: 20px;
+    color: #052855;
+}
+.sign3{
+    font-size: 12px;
+}
+.bg5{
+    background-color: #ebf1f8;
+    width: 100%;
+    height: 200px;
+}
+.big{
+    font-size: 32px;
+    text-align: center;
+    padding: 40px;
+}
+.free14{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    background-color:#0061ff ;
+    transition: 0.5s;
+}
+.free14:hover{
+    background-color:#052855 ;
+}
+
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: #00142d;
+}
+.about1{
+    display: flex;
+    border-bottom:1px solid #ebf1f880;
+}
+.about1 a{
+    padding: 20px 20px 20px 0;
+    color: #fff;
+    text-decoration: none;
+}
+.block{
+    border-bottom: 1px solid #ebf1f880;
+}
+.about2{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+.link p{
+    color:#fff;
+    padding: 10px 0;
+}
+.link a{
+    color: #ffffff80;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    transition: 0.5s;
+}
+.link a:hover{
+    color: #fff;
+}
+.block2{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+.block2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-weight: bold;    
+    width: 220px;
+    height: 36px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(223, 180, 94);
+    padding: 30 50px;;
 }
